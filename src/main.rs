@@ -11,12 +11,12 @@ fn main() {
     println!("");
     let mut sellingcake :String = ("I am selling a cake.").to_string();
     let mut cakeprice = 30;
-    sellingcake.push_str(" The price is ");
     println!("{}", sellingcake);
+    print!("The price is ");
     print!("{}",cakeprice);
-    print!(" dollars.");
+    println!(" dollars.");
     cakeprice = 50;
-    println!(" After 5 months, the cake price is ");
+    print!("After 5 months, the cake price is ");
     print!("{}", cakeprice);
     print!(" dollars.");
 

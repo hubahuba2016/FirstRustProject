@@ -1,1 +1,1 @@
-D:\kaka\rustprojects\target\debug\firstrustproject.exe: D:\kaka\rustprojects\src\main.rs
+D:\kaka\rustprojects\FirstRustProject\target\debug\firstrustproject.exe: D:\kaka\rustprojects\FirstRustProject\src\main.rs
