@@ -19,6 +19,4 @@ fn main() {
     print!("After 5 months, the cake price is ");
     print!("{}", cake_price);
     print!(" dollars.");
-
-
 }
