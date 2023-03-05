@@ -21,7 +21,7 @@ fn main() {
     print!("{}", cake_price);
     println!(" dollars.");
     println!("");
-    println!("Store is open at 9AM to 7PM Western Indonesian Time.");
+    println!("Store is open at 9AM to 7PM Western Indonesian Time (GMT +7).");
     let now = Utc::now();
     let indonesian_now = now.hour() + 7;
     let mut is_store_open = true;
