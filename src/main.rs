@@ -1,4 +1,5 @@
 fn main() {
+    use chrono::prelude::*;
     let my_name:String = "Hubaka".to_string();
     let my_age = 25;
     let my_age_to_string = my_age.to_string();
@@ -18,5 +19,26 @@ fn main() {
     cake_price = 50;
     print!("After 5 months, the cake price is ");
     print!("{}", cake_price);
-    print!(" dollars.");
+    println!(" dollars.");
+    println!("");
+    let now = Utc::now();
+    let indonesian_now = now.hour() + 7;
+    let mut is_store_open = true;
+    if(indonesian_now > 9 && indonesian_now < 19)
+    {
+        is_store_open = true;
+    }
+    else
+    {
+        is_store_open = false;
+    }
+    if(is_store_open==true)
+    {
+        println!("Store is open.")
+    }
+    else
+    {
+        println!("Store is closed.")
+    }
+
 }
