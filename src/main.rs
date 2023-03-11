@@ -80,7 +80,7 @@ fn main() {
                                     println!("Sorry, your money is not enough.");
                                     break;
                                 } else {
-                                    print!("Here you go, you got");
+                                    print!("Here you go, you got ");
                                     println!("{} cakes", number_of_cakes);
                                     print!("Here's your change, ");
                                     print!("{}", money_owned_int);
@@ -116,7 +116,7 @@ fn main() {
                                     println!("Sorry, your money is not enough.");
                                     break;
                                 } else {
-                                    print!("Here you go, you got");
+                                    print!("Here you go, you got ");
                                     println!("{} breads", number_of_bread);
                                     print!("Here's your change, ");
                                     print!("{}", money_owned_int);
@@ -152,7 +152,7 @@ fn main() {
                                     println!("Sorry, your money is not enough.");
                                     break;
                                 } else {
-                                    print!("Here you go, you got");
+                                    print!("Here you go, you got ");
                                     println!("{} coffees", number_of_coffee);
                                     print!("Here's your change, ");
                                     print!("{}", money_owned_int);
