@@ -185,9 +185,11 @@ fn main() {
                         print!("breads,");
                         print!("{}", number_of_coffee);
                         println!("coffees");*/
-                        print!("And your change is ");
-                        print!("{}", money_owned_int);
-                        println!("$");
+                        if(money_owned_int > 0) {
+                            print!("And your change is ");
+                            print!("{}", money_owned_int);
+                            println!("$");
+                        }
                         break;
                     }
                     break;
